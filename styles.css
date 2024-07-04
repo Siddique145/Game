@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  background-color: transparent;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  border: 5px solid yellow;
+  border-radius: 2%;
+  margin-top: 10%;
+}
+.box1 {
+  display: flex;
+  /*border: 3px solid black;*/
+  width: 50%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+.upperbox {
+  border: 2px double yellow;
+  border-radius: 5%;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#box2,
+#box3 {
+  margin-top: -50px;
+}
+.upperbox:hover {
+  background-color: yellow;
+  color: black;
+  font-weight: bolder;
+}
+body {
+  background-color: #cf8bf3;
+}
+.first {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+#btn {
+  background-color: yellow;
+  height: 6vh;
+  width: 20%;
+  border: 2px yellow solid;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.first h1 {
+  color: yellow;
+  font-size: xx-large;
+  font-weight: 900;
+}
+:where(.swal2-container) button:where(.swal2-styled).swal2-confirm {
+  border: 0;
+  border-radius: .25em;
+  background: initial;
+  background-color: yellow;
+  color: black;
+  font-size: 2em;
+}
